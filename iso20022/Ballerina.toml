@@ -1,0 +1,6 @@
+[package]
+org = "iso"
+name = "iso20022"
+version = "0.1.0"
+distribution = "2201.9.2"
+visibility="private"
