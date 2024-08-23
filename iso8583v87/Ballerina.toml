@@ -1,0 +1,183 @@
+[package]
+org = "ballerinax"
+name = "financial.iso8583"
+version = "0.0.1"
+authors=["Ballerina"]
+keywords=["Financial", "iso8583"]
+distribution = "2201.9.2"
+repository="https://github.com/ballerina-platform/module-ballerinax-financial.iso8583"
+visibility="private"
+
+
+
+[[platform.java17.dependency]]
+groupId = "io.ballerinax"
+artifactId = "iso8583"
+version = "0.0.4-SNAPSHOT"
+
+# transitive dependency of io.ballerinax:iso8583:0.0.4-SNAPSHOT
+[[platform.java17.dependency]]
+groupId = "org.jpos"
+artifactId = "jpos"
+version = "2.1.9"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.jdom"
+artifactId = "jdom2"
+version = "2.0.6.1"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.javatuples"
+artifactId = "javatuples"
+version = "1.2"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.jline"
+artifactId = "jline"
+version = "3.23.0"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.apache-extras.beanshell"
+artifactId = "bsh"
+version = "2.0b6"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "commons-cli"
+artifactId = "commons-cli"
+version = "1.4"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.bouncycastle"
+artifactId = "bcprov-lts8on"
+version = "2.73.2"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.bouncycastle"
+artifactId = "bcpg-lts8on"
+version = "2.73.2"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.slf4j"
+artifactId = "slf4j-api"
+version = "1.7.32"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.hdrhistogram"
+artifactId = "HdrHistogram"
+version = "2.1.12"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.osgi"
+artifactId = "org.osgi.core"
+version = "6.0.0"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.yaml"
+artifactId = "snakeyaml"
+version = "2.0"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "jdbm"
+artifactId = "jdbm"
+version = "1.0"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "com.sleepycat"
+artifactId = "je"
+version = "18.3.12"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.apache.sshd"
+artifactId = "sshd-core"
+version = "2.9.2"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.apache.sshd"
+artifactId = "sshd-common"
+version = "2.9.2"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "org.slf4j"
+artifactId = "jcl-over-slf4j"
+version = "1.7.32"
+
+# transitive dependency of org.jpos:jpos:2.1.9
+[[platform.java17.dependency]]
+groupId = "net.i2p.crypto"
+artifactId = "eddsa"
+version = "0.3.0"
+
+# transitive dependency of io.ballerinax:iso8583:0.0.4-SNAPSHOT
+[[platform.java17.dependency]]
+groupId = "org.apache.ws.commons.axiom.wso2"
+artifactId = "axiom"
+version = "1.2.11-wso4v12"
+
+# transitive dependency of org.apache.ws.commons.axiom.wso2:axiom:1.2.11-wso4v12
+[[platform.java17.dependency]]
+groupId = "org.apache.geronimo.specs.wso2"
+artifactId = "geronimo-stax-api_1.0_spec"
+version = "1.0.1.wso2v2"
+
+# transitive dependency of org.apache.ws.commons.axiom.wso2:axiom:1.2.11-wso4v12
+[[platform.java17.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-stax-api_1.0_spec"
+version = "1.0.1"
+
+# transitive dependency of org.apache.ws.commons.axiom.wso2:axiom:1.2.11-wso4v12
+[[platform.java17.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "woodstox-core-asl"
+version = "4.2.0"
+
+# transitive dependency of org.apache.ws.commons.axiom.wso2:axiom:1.2.11-wso4v12
+[[platform.java17.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "stax2-api"
+version = "3.1.1"
+
+# transitive dependency of org.apache.ws.commons.axiom.wso2:axiom:1.2.11-wso4v12
+[[platform.java17.dependency]]
+groupId = "javax.xml.stream"
+artifactId = "stax-api"
+version = "1.0-2"
+
+# transitive dependency of io.ballerinax:iso8583:0.0.4-SNAPSHOT
+[[platform.java17.dependency]]
+groupId = "net.minidev"
+artifactId = "json-smart"
+version = "2.5.1"
+
+# transitive dependency of net.minidev:json-smart:2.5.1
+[[platform.java17.dependency]]
+groupId = "net.minidev"
+artifactId = "accessors-smart"
+version = "2.5.1"
+
+# transitive dependency of net.minidev:json-smart:2.5.1
+[[platform.java17.dependency]]
+groupId = "org.ow2.asm"
+artifactId = "asm"
+version = "9.6"
+
+[[platform.java17.dependency]]
+groupId = "io.ballerinax"
+artifactId = "iso8583"
+version = "0.0.5-SNAPSHOT"
