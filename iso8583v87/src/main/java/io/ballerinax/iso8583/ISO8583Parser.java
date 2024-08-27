@@ -63,7 +63,6 @@ public class ISO8583Parser {
      */
     private static String messageBuilder(ISOMsg isomsg) throws ISO8583Exception {
 
-        // String mti = isomsg.getString(0);
         JSONObject payloadJson = new JSONObject();
         for (int i = 0; i <= isomsg.getMaxField(); i++) {
             if (isomsg.hasField(i)) {
@@ -76,8 +75,6 @@ public class ISO8583Parser {
                 }
             }
         }
-        // JSONObject isoJson = new JSONObject();
-        // isoJson.put(ISO8583Constant.MTI + mti, payloadJson);
         return payloadJson.toJSONString();
     }
 
