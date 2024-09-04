@@ -2,7 +2,7 @@
 
 # Try out instructions
 Run the ballerina service
-bal run /Users/rivindumadushan/CodeBases/LankaPay/MessageFormatLibraries/iso-bal-libraries/iso8583v87 
+bal run iso-bal-libraries/iso8583v87 
 
 Try out sending a http request to http://localhost:9090/lankaPay/inbound with ISO 8583 payload
 
