@@ -1,6 +1,9 @@
 [package]
-org = "iso"
-name = "iso20022"
-version = "0.1.0"
+org = "ballerinax"
+name = "financial.iso20022"
+version = "0.0.1"
+authors=["Ballerina"]
+keywords=["Financial", "iso8583"]
 distribution = "2201.9.2"
+repository="https://github.com/ballerina-platform/module-ballerinax-financial.iso200022"
 visibility="private"

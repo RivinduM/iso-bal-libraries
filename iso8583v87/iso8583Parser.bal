@@ -19,7 +19,7 @@ import ballerina/data.jsondata;
 #
 # + isoMessage - iso 8583 message
 # + return - iso 8583 record as anydata
-public function parse(string isoMessage) returns anydata|ISOError {
+public isolated function parse(string isoMessage) returns anydata|ISOError {
 
     string|iso8583:ISO8583Exception iso8583unpackedMsg = iso8583:ISO8583Parser_unpackISOmessage(isoMessage);
 
